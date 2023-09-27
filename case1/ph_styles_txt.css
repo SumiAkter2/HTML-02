@@ -4,22 +4,39 @@
    Case Problem 1
    
    PHCT Typographic Style Sheet
-   Author: 
-   Date:   
+   Author: Sumi Akter
+   Date:  27/09/2023 
    
    Filename: ph_styles.css
 
 */
-
+@charset "UTF-8";
+ @font-face{
+   font-family: myFirstFont;
+      src: url(./cac_champagne.woff);
+ }
 
 /* Structural Styles */
+html{
+   background-color: hsl(91, 8%, 56%);
+}
+body{
+   background-color: hsl(58, 31%, 84%);
+   font-family:  Palatino Linotype, Book Antiqua, Palatino, serif;
+}
 
-
-
+header{
+   background: gray;
+}
 
 /* Navigation Styles */
-
-
+nav ul li {
+   list-style: none;
+}
+nav ul li a{
+   text-decoration: none;
+   color: #fff;
+}
 
 
 /* Section Styles */
