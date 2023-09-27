@@ -63,6 +63,7 @@ nav ul li a:active{
    color: hsla(0, 0%, 100%, 0.7);
       background-color: hsl(0, 0%, 42%, 0.7);
 }
+
 /* paragraph */
 p{
    margin: 0;
@@ -78,6 +79,9 @@ section.playbill h1{
    font-weight: normal;
    margin: 0;
    padding: 20px 0px 10px 20px;
+}
+section.playbill p{
+   text-align: start;
 }
 section.playbill aside dl dt{
 font-size: 1.3em;
