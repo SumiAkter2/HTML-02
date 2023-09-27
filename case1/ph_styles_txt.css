@@ -55,14 +55,11 @@ nav ul li a{
    padding: 10px 0;
    background-color: hsla(0, 0%, 42%, 0.4);
 }
-nav ul li a:hover {
+nav ul li a:hover, nav ul li a:active {
  color:  hsla(0, 0%, 100%, 0.7);
  background-color: hsl(0, 0%, 42%, 0.7);
 }
-nav ul li a:active{
-   color: hsla(0, 0%, 100%, 0.7);
-      background-color: hsl(0, 0%, 42%, 0.7);
-}
+
 
 /* paragraph */
 p{

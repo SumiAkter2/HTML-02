@@ -34,7 +34,7 @@ body>header h1{
    color: rgba(255, 255, 255, 0.8);
    font-family: 'Limelight', cursive;
    margin: 0;
-   /* padding: 0px 20px; */
+   padding: 0px 20px;
    
 }
 body>header h1 span{
@@ -52,7 +52,7 @@ h1 h2 {
    color: #fff; 
 }
 #mainLinks ul li a:hover ,#mainLinks ul li a:active{
-   opacity: 0.8;
+  opacity: 0.8;
   background-color: rgba(51, 51, 51, 0.5);
 }
  li a{
@@ -88,6 +88,7 @@ footer{
 }
 #outline a:hover, #outline a:active{
    color: rgb(97, 97, 211);
+   text-decoration: underline;
 }
 
 /* Section Styles */
