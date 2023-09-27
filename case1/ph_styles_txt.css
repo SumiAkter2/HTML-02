@@ -12,9 +12,21 @@
 */
 @charset "UTF-8";
  @font-face{
-   font-family: myFirstFont;
+   font-family: champagneFont;
       src: url(./cac_champagne.woff);
+      src: url(./cac_champagne.ttf);
  }
+  @font-face {
+     font-family: dobkinPlainFont;
+     src: url(./DobkinPlain.ttf);
+     src: url(./DobkinPlain.woff);
+  }
+  @font-face {
+     font-family: grungeFont;
+     src: url(./1942.ttf);
+     src: url(./1942.woff);
+  }
+
 
 /* Structural Styles */
 html{
@@ -26,10 +38,13 @@ body{
 }
 
 header{
-   background: gray;
+   background: #000;
 }
 
 /* Navigation Styles */
+nav{
+  
+}
 nav ul li {
    list-style: none;
 }
@@ -40,6 +55,15 @@ nav ul li a{
       Helvetica,
       sans-serif;
    padding: 10px 0;
+   background-color: hsla(0, 0%, 42%, 0.4);
+}
+nav ul li a:hover {
+ color:  hsla(0, 0%, 100%, 0.7);
+ background-color: hsl(0, 0%, 42%, 0.7);
+}
+nav ul li a:active{
+   color: hsla(0, 0%, 100%, 0.7);
+      background-color: hsl(0, 0%, 42%, 0.7);
 }
 /* paragraph */
 p{
@@ -51,7 +75,12 @@ p{
 
 /* Section Styles */
 
-
+section.playbill h1{
+   font-size: 3em;
+   font-weight: normal;
+   margin: 0;
+   padding: 20px 0px 10px 20px;
+}
 
 
 /* Description List Styles */
